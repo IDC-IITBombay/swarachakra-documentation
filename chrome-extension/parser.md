@@ -18,7 +18,14 @@ The **third** input, the path to the JSON file stores the JSON file created in t
 
 As we can see, the generated JSON contains the following keys:
 
-
+1. code: integer - maps the key to layout
+2. unicode: - string / unicode - unicode of the key
+3. showchakra: - boolean - display / hide chakra
+4. customchakralayout: - string - chakra keys
+5. showicon: - boolean - display / hide icon
+6. icon: - string - icon name
+7. changelayout: - boolean - custom layout change
+8. layout: - string - custom layout change value
 
 The parser has used Kannada as the suitable CSV and it is extremely important that similar pattern of the CSV is followed for future development.
 
