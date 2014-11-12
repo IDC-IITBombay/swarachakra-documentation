@@ -27,8 +27,8 @@ As we can see, the generated JSON contains the following keys:
 7. changelayout: - boolean - custom layout change
 8. layout: - string - custom layout change value
 
-The parser has used Kannada as the suitable CSV and it is extremely important that similar pattern of the CSV is followed for future development.
+The parser has used **Kannada** as the suitable CSV and it is extremely important that similar pattern of the CSV is followed for future development.
 
-Note
-The code of the parser is already released on the IDC Github Organisation page under a repository called Swarachakra-JSON-parser. Here, is the link to the repository.
+**Note**
+The code of the parser is already released on the IDC Github Organisation page under a repository called Swarachakra-JSON-parser.
 Due to  character escaping encountered while processing the CSV file, it might required to remove additional backlashes introduced in the JSON file. This is an issue with both ruby and python as tested by the author.
